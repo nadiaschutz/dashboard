@@ -1,0 +1,206 @@
+/*colors*/
+
+
+/*
+
+black #24201F
+red #e74c3c
+white #FFFFFF
+light grey #ecf0f1 
+dark grey  #bdc3c7
+blue for bot conversation #2980b9
+fonts 
+Roboto Condensed
+Open Sans Italic
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+*/
+
+
+/*general*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: geometricPrecision;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+    line-height: 35px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px auto 20px auto;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 20px auto 20px auto;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #666666;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-top: 15px;
+   
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: #24201F;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+strong,
+b {
+    font-weight: 700;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+
+/*.clearfix {
+    *zoom: 1;
+}*/
+
+
+/*
+.clearfix:before,
+.clearfix:after {
+    content: ' ';
+    display: block;
+}
+.clearfix:after{
+    clear: both;
+}
+*/
+/*//dxfdf*/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+
+/* Hides from IE-mac \*/
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+
+/* End hide from IE-mac */
+
+
+/* @end */
+
+
+/*nav*/
+
+#container-home {
+    width: 100%;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    
+    background-color: #24201F;
+    /*height: 100px;*/
+    z-index: 1000;
+}
+
+.left {
+    float: left;
+    padding-left: 20px;
+}
+
+.right {
+    float: right;
+    padding-right: 20px;
+}
+
+
+/*data-chart*/
+
+#data-chart {
+    padding-top: 40px;
+    background-color: #ecf0f1;
+}
+
+.chart-box {
+    padding: 20 auto;
+}
+
+.chart-box-content {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+
